@@ -1,0 +1,2 @@
+SCRIPT_DIR="$(dirname "$(realpath "$0")")"
+test  "${SCRIPT_DIR}/iterm2_shell_integration.sh" && source "${SCRIPT_DIR}/iterm2_shell_integration.sh"
